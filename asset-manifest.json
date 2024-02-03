@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/yahyayasirkoca.com/static/css/main.5dff0870.css",
-    "main.js": "/yahyayasirkoca.com/static/js/main.0d9f3f5e.js",
-    "index.html": "/yahyayasirkoca.com/index.html",
-    "main.5dff0870.css.map": "/yahyayasirkoca.com/static/css/main.5dff0870.css.map",
-    "main.0d9f3f5e.js.map": "/yahyayasirkoca.com/static/js/main.0d9f3f5e.js.map"
+    "main.css": "/static/css/main.5dff0870.css",
+    "main.js": "/static/js/main.0d9f3f5e.js",
+    "index.html": "/index.html",
+    "main.5dff0870.css.map": "/static/css/main.5dff0870.css.map",
+    "main.0d9f3f5e.js.map": "/static/js/main.0d9f3f5e.js.map"
   },
   "entrypoints": [
     "static/css/main.5dff0870.css",
