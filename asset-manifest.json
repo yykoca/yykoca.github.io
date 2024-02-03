@@ -1,23 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.9d5b29c0.chunk.css",
-    "main.js": "./static/js/main.731ff1f5.chunk.js",
-    "main.js.map": "./static/js/main.731ff1f5.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.30cc4a72.js",
-    "runtime-main.js.map": "./static/js/runtime-main.30cc4a72.js.map",
-    "static/js/2.b4a87c79.chunk.js": "./static/js/2.b4a87c79.chunk.js",
-    "static/js/2.b4a87c79.chunk.js.map": "./static/js/2.b4a87c79.chunk.js.map",
-    "static/js/3.b85fef68.chunk.js": "./static/js/3.b85fef68.chunk.js",
-    "static/js/3.b85fef68.chunk.js.map": "./static/js/3.b85fef68.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "./static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.b4a87c79.chunk.js.LICENSE.txt": "./static/js/2.b4a87c79.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "./static/media/logo.6ce24c58.svg"
+    "main.css": "/yahyayasirkoca.com/static/css/main.5dff0870.css",
+    "main.js": "/yahyayasirkoca.com/static/js/main.0d9f3f5e.js",
+    "index.html": "/yahyayasirkoca.com/index.html",
+    "main.5dff0870.css.map": "/yahyayasirkoca.com/static/css/main.5dff0870.css.map",
+    "main.0d9f3f5e.js.map": "/yahyayasirkoca.com/static/js/main.0d9f3f5e.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.30cc4a72.js",
-    "static/js/2.b4a87c79.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.731ff1f5.chunk.js"
+    "static/css/main.5dff0870.css",
+    "static/js/main.0d9f3f5e.js"
   ]
 }
