@@ -5,11 +5,11 @@ function Project() {
     const projects = [{ name: "Driver&Order Tracking", url: "./images/projects/delicious-things.png" }, { name: "Delicious Things", url: "./images/projects/order-tracking.png" }, { name: "Not Kutusu", url: "./images/projects/delicious-things.png" }, { name: "Nostalji Sekerleme", url: "./images/projects/order-tracking.png" }, { name: "Movie Hub", url: "./images/projects/delicious-things.png" }]
     return (
         // <Container fluid text-center id="project" className="my-5 p-5" style={{ backgroundColor: "rgb(167,237,219)" }} >
-        <Container fluid text-center id="project" className="my-5 p-5 bg-dark">
+        <Container fluid id="project" className="my-5 p-5 text-center bg-dark">
             <h3 className="text-center mb-5 text-light" >Projects</h3>
             <Row xs={1} md={2} lg={3} className="g-4 align-items-md-center d-flex flex-row flex-nowrap" id="project" style={{ overflow: "scroll", scrollbarWidth: "none" }} >
                 {projects.map((project, idx) => (
-                    <Col>
+                    <Col key={idx}>
                         <Card className="border-0">
                             <Card.Img
                                 variant="top"
