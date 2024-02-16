@@ -94,3 +94,16 @@ nav {
     top: 0;
   }
 }
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.btn.btn-outline-dark:hover {
+  background-color: transparent !important;
+  color: black;
+  cursor: default;
+}
