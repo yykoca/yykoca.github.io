@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { React } from "react";
 import Header from './components/Header.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
@@ -10,25 +10,10 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [scrollPosition, setScrollPosition] = useState(0);
-  
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-    setScrollPosition(position);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
     <div className="App">
       <Header />
-      <Home scrollPosition={scrollPosition} />
+      <Home />
       <About />
       {/* <Experience /> */}
       <Projects />
