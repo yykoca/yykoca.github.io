@@ -2,6 +2,10 @@ import React from 'react';
 import { Navbar, Container, Nav, Image } from 'react-bootstrap';
 
 function Header() {
+    const scrollToTop = () => {
+        window.scrollTo({top:0, behavior: 'smooth'})
+    };
+
     return (
         <Navbar id="header" collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
             <Container>
@@ -9,7 +13,7 @@ function Header() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link onClick={scrollToTop}>Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
                         <Nav.Link href="#experience">Experience</Nav.Link>
                         <Nav.Link href="#project">Project</Nav.Link>
