@@ -42,7 +42,7 @@ h1 {
 nav {
   min-height: 75px;
 }
-/* HOME STYLE */
+
 #home {
   margin-top: 75px;
   height: calc(100vh - 75px);
@@ -50,7 +50,14 @@ nav {
 }
 
 #about {
+  min-height: 100vh;
   padding-top: 75px;
+}
+
+#about a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(234,113,88);
 }
 
 #home img {
@@ -93,13 +100,6 @@ nav {
   100% {
     top: 0;
   }
-}
-
-.skills-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding: 2rem 0;
 }
 
 .btn.btn-outline-dark:hover {

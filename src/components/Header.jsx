@@ -3,7 +3,8 @@ import { Navbar, Container, Nav, Image } from 'react-bootstrap';
 
 function Header() {
     const scrollToTop = () => {
-        window.scrollTo({top:0, behavior: 'smooth'})
+        window.scrollTo({top:0, behavior: 'smooth'});
+        window.history.replaceState(null, null, window.location.pathname);
     };
 
     return (
@@ -13,7 +14,7 @@ function Header() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>
-                        <Nav.Link onClick={scrollToTop}>Home</Nav.Link>
+                        <Nav.Link href="#" onClick={scrollToTop}>Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
                         <Nav.Link href="#experience">Experience</Nav.Link>
                         <Nav.Link href="#project">Project</Nav.Link>
