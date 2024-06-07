@@ -49,14 +49,18 @@ nav {
   max-width: 700px;
 }
 
-#about {
+#about, #project {
   min-height: 100vh;
   padding-top: 75px;
 }
 
+#project a,
 #about a {
   text-decoration: none;
   font-weight: bolder;
+}
+
+#about a {
   color: rgb(234,113,88);
 }
 
