@@ -10,11 +10,12 @@ function Header() {
     return (
         <Navbar id="header" collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
             <Container>
-                <Image src="./images/logo.png" width="50" height="50" />
+                <Nav.Link href="#" onClick={scrollToTop}>
+                    <Image src="./images/logo.png" width="50" height="50" />
+                </Nav.Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="#" onClick={scrollToTop}>Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
                         <Nav.Link href="#experience">Experience</Nav.Link>
                         <Nav.Link href="#project">Project</Nav.Link>
