@@ -12,14 +12,11 @@ function About() {
                         <Card.Body>
                             <Card.Title as="h3" className="text-center mb-3">About me</Card.Title>
                             <Card.Text>
-                                Hi, I'm Yahya Yasir! I'm a Full-Stack Developer who is passionate about writing code, solving problems, automating stuff, and building Single Page Application.<br />
-                                🔭 I’m seeking a new role as a Full-Stack Web Developer<br />
-                                📚 I’m currently improving my skills and knowledge using Angular, PHP with Symfony, and NestJS.<br />
-                                👯 I’m continue to develop personal projects to improve my abilities.<br />
-                                📫 How to reach me: <a href="https://www.linkedin.com/in/yykoca/" target="_blank" rel="noreferrer">Linkedin</a> <a href="mailto:yykoca.08@gmail.com">Gmail</a>
-
+                                🧑🏻‍💻 At the moment, I'm immersed as a Full-Stack Developer at CF. My greatest passion in my work lies in crafting code at every stage to enhance user experiences and innovate solutions.<br />
+                                📚 I'm currently delving into backend web development using PHP, Symfony, and NestJS. Embracing new technologies and honing my skills are lifestyle choices for me.<br />
+                                🛠 I’m continue to develop personal projects to improve my abilities.<br />
+                                📫 Feel free to reach out to me on <a class="in" href="https://www.linkedin.com/in/yykoca/" target="_blank" rel="noreferrer">LinkedIn</a> or via <a href="mailto:yykoca.08@gmail.com">Email</a>. I'm always keen on collaborating on new projects and meeting new individuals!
                             </Card.Text>
-                            {/* <Button variant="outline-dark mt-2">Download My Cv</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
