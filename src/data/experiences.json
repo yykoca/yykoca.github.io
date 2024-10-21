@@ -1,0 +1,52 @@
+[
+    {
+        "jobTitle": "Software Developer",
+        "company": "Content Fleet GmbH",
+        "employmentType": "Full-time",
+        "startDate": "Apr 2024",
+        "endDate": "Present",
+        "responsibilities": [
+            "Developing and maintaining web applications using modern frameworks.",
+            "Collaborating with cross-functional teams to define, design, and ship new features.",
+            "Participating in code reviews to ensure code quality and best practices.",
+            "Troubleshooting and debugging applications to optimize performance."
+        ]
+    },
+    {
+        "jobTitle": "Junior Software Developer",
+        "company": "GDS GmbH",
+        "employmentType": "Full-time",
+        "startDate": "Sep 2022",
+        "endDate": "Sep 2023",
+        "responsibilities": [
+            "Assistance in the development of a merchant platform (API and frontend) where merchants can configure and book advertising campaigns.",
+            "Collaboration in the development of applications and websites.",
+            "Working closely with other developers and team members to overcome complex technical challenges."
+        ]
+    },
+    {
+        "jobTitle": "Junior Software Developer",
+        "company": "CHECK24 Vergleichsportal",
+        "employmentType": "Full-time",
+        "startDate": "Feb 2022",
+        "endDate": "Jul 2022",
+        "responsibilities": [
+            "Maintenance and further development of the frontend, consisting of input forms and comparison results.",
+            "Implementation of a new layout for input forms.",
+            "Resolution of display and logic errors, especially on mobile devices.",
+            "Adjustment of end-to-end tests."
+        ]
+    },
+    {
+        "jobTitle": "Tutor",
+        "company": "DCI Digital Career Institute gGmbH",
+        "employmentType": "Part-time",
+        "startDate": "Oct 2020",
+        "endDate": "Dec 2021",
+        "responsibilities": [
+            "4 hours per week of tutoring on the subject of web development for classmates.",
+            "Independent planning and conceptualization of the tutorial.",
+            "Designing exercises and addressing complex questions."
+        ]
+    }    
+]

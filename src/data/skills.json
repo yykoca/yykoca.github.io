@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Angular",
+        "image": "./images/brand-logos/angular.png"
+    },
+    {
+        "name": "React",
+        "image": "./images/brand-logos/react.png"
+    },
+    {
+        "name": "JavaScript",
+        "image": "./images/brand-logos/javascript.png"
+    },
+    {
+        "name": "Typescript",
+        "image": "./images/brand-logos/typescript.svg"
+    },
+    {
+        "name": "PHP",
+        "image": "./images/brand-logos/php.png"
+    },
+    {
+        "name": "Symfony",
+        "image": "./images/brand-logos/symfony.png"
+    },
+    {
+        "name": "HTML5",
+        "image": "./images/brand-logos/html5.png"
+    },
+    {
+        "name": "CSS3",
+        "image": "./images/brand-logos/css3.png"
+    },
+    {
+        "name": "SCSS",
+        "image": "./images/brand-logos/sass.png"
+    },
+    {
+        "name": "Git",
+        "image": "./images/brand-logos/git.png"
+    },
+    {
+        "name": "Docker",
+        "image": "./images/brand-logos/docker.svg"
+    },
+    {
+        "name": "NestJS",
+        "image": "./images/brand-logos/nestjs.png"
+    },
+    {
+        "name": "MongoDB",
+        "image": "./images/brand-logos/mongodb.png"
+    },
+    {
+        "name": "MySQL",
+        "image": "./images/brand-logos/mysql.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "image": "./images/brand-logos/postgresql.png"
+    },
+    {
+        "name": "Node.js",
+        "image": "./images/brand-logos/nodejs.svg"
+    },
+    {
+        "name": "GraphQL",
+        "image": "./images/brand-logos/graphql.png"
+    },
+    {
+        "name": "Material UI",
+        "image": "./images/brand-logos/materialui.png"
+    },
+    {
+        "name": "Bootstrap",
+        "image": "./images/brand-logos/bootstrap.png"
+    },
+    {
+        "name": "Tailwind CSS",
+        "image": "./images/brand-logos/tailwind.png"
+    }
+]

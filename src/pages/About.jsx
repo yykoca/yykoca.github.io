@@ -1,9 +1,8 @@
 import React from "react";
-import { Button, Container, Card, Image, Row, Col } from "react-bootstrap";
+import { Container, Card, Image, Row, Col } from "react-bootstrap";
+import skills from "../data/skills.json";
 
 function About() {
-    const skills = ["Angular", "JavaScript", "PHP", "Symfony", "Responsive Design", "SCSS", "Git", "Docker", "NestJS", "MongoDB", "MySQL", "PostgreSQL", "Node.js", "Express.js", "GraphQL", "Material Design"]
-
     return (
         <Container id="about" className="d-flex flex-column justify-content-center">
             <Row className="d-flex align-items-center">
@@ -28,15 +27,18 @@ function About() {
                 </Col>
             </Row>
             <Row className="d-flex flex-wrap mt-4">
-                <Col lg="8" className="p-4">
+                <Col lg="12" className="p-4">
                     <Card className="border-0 bg-transparent">
                         <Card.Body>
-                            <Card.Title as="h3" className="text-center">My Skills</Card.Title>
-                            <div className="d-flex flex-wrap gap-2 py-4">
+                            <Card.Title as="h3" className="text-center">My Skills&nbsp;&amp;&nbsp;Experience</Card.Title>
+                            <div className="d-flex flex-wrap gap-3 py-4 m-auto justify-content-center width-75">
                                 {
                                     skills.map((skill, idx) => {
                                         return (
-                                            <Button key={idx} variant="outline-dark">{skill}</Button>
+                                            <div className="d-flex flex-column align-items-center justify-content-center" style={{minWidth: "120px"}}>
+                                                <Image src={skill.image} height="40" className="mb-2"/>
+                                                <span>{skill.name}</span>
+                                            </div>
                                         )
                                     })
                                 }

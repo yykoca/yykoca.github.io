@@ -1,43 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
+import projects from "../data/projects.json";
 
 function Project() {
-    const projects = [
-        {
-            name: "Mürekkep",
-            url: "https://yasarkoca.netlify.app",
-            description: "Mürekkep yazarların kişisel yazılarını yayınladığı bir blog sayfasıdır. Yazarların okuyucusuyla buluşması, yeni yazılardan haberdar olması üzerine geliştirilmiş bir web uygulamasıdır.",
-            image: "./images/projects/murekkep.png"
-        },
-        {
-            name: "Not Kutusu",
-            url: "http://notkutusu.com",
-            description: "İTÜ'lü öğrenciler için geliştirilmiş olup, ders notlarını paylaşmaya ve diğer öğrenciler tarafından bu ders notlarına kolayca erişim sağlanması amacıyla hazırlanmış bir sitedir.",
-            image: "./images/projects/notkutusu.png"
-        },
-        {
-            name: "Game of Thrones",
-            url: "https://yykoca.github.io/gameOfThrones/houses",
-            description: "Bu proje, popüler televizyon dizisi Game of Thrones'dan alıntıları göstermek amacıyla Angular framework'ü kullanılarak geliştirilmiş bir web uygulamasıdır.",
-            image: "./images/projects/game-of-thrones.png"
-        }
-        // {
-        //     name: "Driver&Order Tracking",
-        //     url: "./images/projects/delicious-things.png"
-        // },
-        // {
-        //     name: "Delicious Things",
-        //     url: "./images/projects/order-tracking.png"
-        // },
-        // {
-        //     name: "Nostalji Sekerleme",
-        //     url: "./images/projects/order-tracking.png"
-        // },
-        // {
-        //     name: "Movie Hub",
-        //     url: "./images/projects/delicious-things.png"
-        // }
-    ]
     return (
         // <Container fluid text-center id="project" className="my-5 p-5" style={{ backgroundColor: "rgb(167,237,219)" }} >
         <Container fluid id="project" className="my-5 py-5 md:p-5 text-center bg-dark">
