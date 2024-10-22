@@ -5,7 +5,7 @@ import projects from "../data/projects.json";
 function Project() {
     return (
         // <Container fluid text-center id="project" className="my-5 p-5" style={{ backgroundColor: "rgb(167,237,219)" }} >
-        <Container fluid id="project" className="my-5 py-5 md:p-5 text-center bg-dark">
+        <Container fluid id="project" className="py-5 md:p-5 text-center bg-dark">
             <h3 className="text-center my-5 text-light" >Projects</h3>
             <Row xs={1} md={2} lg={3} className="container mx-auto g-4 justify-content-center align-items-md-center d-flex flex-row flex-wrap" style={{ overflow: "scroll", scrollbarWidth: "none" }} >
                 {projects.map((project, idx) => (

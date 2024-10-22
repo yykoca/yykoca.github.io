@@ -50,7 +50,6 @@ nav {
 }
 
 #about, #project, #experience {
-  min-height: 100vh;
   padding-top: 75px;
 }
 
@@ -74,6 +73,16 @@ nav {
 
 #home img {
   box-shadow: 0px 0px 10px rgb(102, 102, 102);
+}
+
+#contact {
+  min-height: 400px;
+  max-width: 500px; 
+}
+
+#contact a button:hover{
+  border-color: rgb(234,113,88);
+  background-color: rgb(234,113,88);
 }
 
 #footer {

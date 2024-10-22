@@ -4,18 +4,18 @@ import experiences from "../data/experiences.json";
 
 function Experience() {
     return (
-        <Container id="experience" className="d-flex flex-column my-5">
+        <Container id="experience" className="d-flex flex-column">
             <Card className="border-0 bg-transparent p-4">
                 <Card.Body>
-                    <Card.Title as="h3" className="text-center">Experience</Card.Title>
+                    <Card.Title as="h3" className="text-center">My career journey so far</Card.Title>
                 </Card.Body>
             </Card>
             {
                 experiences.map((experience, idx) => {
                     return (
                         <div class="experience width-50">
-                            <h4>{ experience.jobTitle }</h4>
-                            <h6>{ experience.company } · { experience.employmentType }</h6>
+                            <h4>{ experience.company }</h4>
+                            <h6>{ experience.jobTitle }</h6>
                             <span>{ experience.startDate } - { experience.endDate }</span>
                             <ul>
                                 {
