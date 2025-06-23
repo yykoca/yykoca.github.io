@@ -12,7 +12,7 @@ function Home() {
             <Row className='p-2 mt-5 text-center'>
                 <Col xs className="upEffect">
                     <span className='fs-4'>Hi, my name is</span>
-                    <h1 className="mb-0 display-3">Yahya Yasir Koca.</h1>
+                    <h1 className="mb-0 display-3">Yahya Yasir Koca</h1>
                     <h2>Software Developer</h2>
                     <p className='fs-5'>
                         I'm a passionate Full-Stack Developer with a love for crafting elegant code, solving intricate problems, automating tasks, and building engaging <br/> Single Page Applications.
