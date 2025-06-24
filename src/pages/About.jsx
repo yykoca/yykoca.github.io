@@ -35,7 +35,7 @@ function About() {
                                 {
                                     skills.map((skill, idx) => {
                                         return (
-                                            <div className="d-flex flex-column align-items-center justify-content-center" style={{minWidth: "120px"}}>
+                                            <div key={skill.name + "-" + idx} className="d-flex flex-column align-items-center justify-content-center" style={{minWidth: "120px"}}>
                                                 <Image src={skill.image} height="40" className="mb-2"/>
                                                 <span>{skill.name}</span>
                                             </div>
