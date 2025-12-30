@@ -14,7 +14,7 @@ function Footer() {
                     <Nav.Link className="px-3" href="mailto:yykoca.08@gmail.com"><Envelope /></Nav.Link>
                 </Nav>
             </Container>
-            <div class="designed-by">Designed & Built with <Image src="./images/heart.svg" height="14"/> by Yahya Yasir Koca.</div>
+            <div className="designed-by">Designed & Built with <Image src="./images/heart.svg" height="14"/> by Yahya Yasir Koca.</div>
         </Navbar>
     )
 }

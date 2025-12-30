@@ -14,7 +14,7 @@ function About() {
                                 🧑🏻‍💻 At the moment, I'm immersed as a Full-Stack Developer at CF. My greatest passion in my work lies in crafting code at every stage to enhance user experiences and innovate solutions.<br />
                                 📚 I'm currently delving into backend web development using PHP, Symfony, and NestJS. Embracing new technologies and honing my skills are lifestyle choices for me.<br />
                                 🛠 I’m continue to develop personal projects to improve my abilities.<br />
-                                📫 Feel free to reach out to me on <a class="in" href="https://www.linkedin.com/in/yykoca/" target="_blank" rel="noreferrer">LinkedIn</a> or via <a href="mailto:yykoca.08@gmail.com">Email</a>. I'm always keen on collaborating on new projects and meeting new individuals!
+                                📫 Feel free to reach out to me on <a className="in" href="https://www.linkedin.com/in/yykoca/" target="_blank" rel="noreferrer">LinkedIn</a> or via <a href="mailto:yykoca.08@gmail.com">Email</a>. I'm always keen on collaborating on new projects and meeting new individuals!
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -35,7 +35,7 @@ function About() {
                                 {
                                     skills.map((skill, idx) => {
                                         return (
-                                            <div className="d-flex flex-column align-items-center justify-content-center" style={{minWidth: "120px"}}>
+                                            <div key={idx} className="d-flex flex-column align-items-center justify-content-center" style={{minWidth: "120px"}}>
                                                 <Image src={skill.image} height="40" className="mb-2"/>
                                                 <span>{skill.name}</span>
                                             </div>

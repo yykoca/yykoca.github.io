@@ -13,7 +13,7 @@ function Experience() {
             {
                 experiences.map((experience, idx) => {
                     return (
-                        <div class="experience width-50">
+                        <div key={idx} className="experience width-50">
                             <h4>{ experience.company }</h4>
                             <h6>{ experience.jobTitle }</h6>
                             <span>{ experience.startDate } - { experience.endDate }</span>

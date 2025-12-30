@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Button, Row } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 
 function Contact() {
 
