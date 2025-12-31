@@ -1,0 +1,104 @@
+{
+  "home": {
+    "greeting": "Merhabalar, ben",
+    "title": "Yazılım Geliştirici",
+    "description": "Zarif kod yazmayı, karmaşık problemleri çözmeyi, görevleri otomatikleştirmeyi ve ilgi çekici Tek Sayfa Uygulamaları oluşturmayı seven tutkulu bir Full-Stack Geliştiriciyim."
+  },
+  "about": {
+    "title": "Hakkımda",
+    "intro": "Şu anda CF'de Full-Stack Developer olarak çalışıyorum. İşimdeki en büyük tutkum, kullanıcı deneyimlerini geliştirmek ve çözümler üretmek için her aşamada kod yazmaktır.",
+    "learning": "Şu anda PHP, Symfony ve NestJS kullanarak backend web geliştirme üzerine çalışıyorum. Yeni teknolojileri benimsemek ve becerilerimi geliştirmek benim için bir yaşam tarzı.",
+    "projects": "Yeteneklerimi geliştirmek için kişisel projeler geliştirmeye devam ediyorum.",
+    "contact": "Benimle",
+    "or": "veya",
+    "linkedin": "LinkedIn",
+    "email": "E-posta",
+    "collaborate": "üzerinden iletişime geçmekten çekinmeyin. Yeni projeler üzerinde işbirliği yapmak ve yeni insanlarla tanışmak beni her zaman heyecanlandırır!",
+    "skills": "Yetkinliklerim",
+    "experience": "Deneyimim"
+  },
+  "experience": {
+    "title": "Kariyer yolculuğum",
+    "list": [
+      {
+        "company": "Content Fleet GmbH",
+        "jobTitle": "Yazılım Geliştirici",
+        "employmentType": "Tam zamanlı",
+        "startDate": "Nis 2024",
+        "endDate": "Güncel",
+        "responsibilities": [
+          "Modern frameworkler kullanarak web uygulamaları geliştirmek ve sürdürmek.",
+          "Yeni özellikleri tanımlamak, tasarlamak ve yayına almak için farklı ekiplerle iş birliği yapmak.",
+          "Kod kalitesini ve en iyi uygulamaları sağlamak için kod incelemelerine katılmak.",
+          "Uygulamaları optimize etmek için hata ayıklama ve performans iyileştirmeleri yapmak."
+        ]
+      },
+      {
+        "company": "GDS GmbH",
+        "jobTitle": "Junior Yazılım Geliştirici",
+        "employmentType": "Tam zamanlı",
+        "startDate": "Eyl 2022",
+        "endDate": "Eyl 2023",
+        "responsibilities": [
+          "Satıcıların reklam kampanyalarını yapılandırıp rezerve edebileceği bir satıcı platformunun (API ve arayüz) geliştirilmesine destek olmak.",
+          "Uygulama ve web sitesi geliştirme süreçlerinde iş birliği yapmak.",
+          "Diğer geliştiriciler ve ekip üyeleriyle yakın çalışarak karmaşık teknik zorlukların üstesinden gelmek."
+        ]
+      },
+      {
+        "company": "CHECK24 Vergleichsportal GmbH",
+        "jobTitle": "Junior Yazılım Geliştirici",
+        "employmentType": "Tam zamanlı",
+        "startDate": "Şub 2022",
+        "endDate": "Tem 2022",
+        "responsibilities": [
+          "Formları ve karşılaştırma sonuçlarından oluşan arayüzün bakımını yapmak ve geliştirmek.",
+          "Formlar için yeni bir tasarım uygulamak.",
+          "Özellikle mobil cihazlarda görülen görüntüleme ve mantık hatalarını çözmek.",
+          "Uçtan uca testleri güncellemek."
+        ]
+      },
+      {
+        "company": "DCI Digital Career Institute gGmbH",
+        "jobTitle": "Eğitmen",
+        "employmentType": "Yarı zamanlı",
+        "startDate": "Eki 2020",
+        "endDate": "Ara 2021",
+        "responsibilities": [
+          "Haftada 4 saat web geliştirme konusunda sınıf arkadaşlarına özel ders vermek.",
+          "Dersin bağımsız olarak planlanması ve konseptinin oluşturulması.",
+          "Alıştırmalar hazırlamak ve karmaşık soruları yanıtlamak."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projeler",
+    "murekkep": {
+      "description": "Mürekkep yazarların kişisel yazılarını yayınladığı bir blog sayfasıdır. Yazarların okuyucusuyla buluşması, yeni yazılardan haberdar olması üzerine geliştirilmiş bir web uygulamasıdır."
+    },
+    "notkutusu": {
+      "description": "İTÜ'lü öğrenciler için geliştirilmiş olup, ders notlarını paylaşmaya ve diğer öğrenciler tarafından bu ders notlarına kolayca erişim sağlanması amacıyla hazırlanmış bir sitedir."
+    },
+    "gameofthrones": {
+      "description": "Bu proje, popüler televizyon dizisi Game of Thrones'dan alıntıları göstermek amacıyla Angular framework'ü kullanılarak geliştirilmiş bir web uygulamasıdır."
+    }
+  },
+  "contact": {
+    "title": "Benimle İletişimde Kalın",
+    "message": "Şu anda aktif olarak yeni fırsatlar aramıyor olsam da, istediğiniz zaman iletişime geçmekten çekinmeyin. İster bir sorunuz olsun ister sadece bağlantı kurmak isteyin, elimden geldiğince yanıtlamaya çalışacağım!",
+    "button": "Mesaj Gönder"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "experience": "Kariyer",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "footer": {
+    "designedBy-I": "Yahya Yasir Koca tarafından",
+    "designedBy-II": "tasarlandı & geliştirildi.",
+    "copyright": "© {{year}} Tüm hakları saklıdır."
+  }
+}

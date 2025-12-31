@@ -28,7 +28,7 @@
   transition: 0.5s ease-in color;
 }
 
-#project::-webkit-scrollbar {
+#projects::-webkit-scrollbar {
   display: none;
 }
 
@@ -41,17 +41,21 @@ nav {
   min-height: 75px;
 }
 
+#language-dropdown {
+  padding: 8px;
+}
+
 #home {
   margin-top: 75px;
   height: calc(100vh - 75px);
   max-width: 700px;
 }
 
-#about, #project, #experience {
+#about, #projects, #experience {
   padding-top: 75px;
 }
 
-#project a,
+#projects a,
 #about a {
   text-decoration: none;
   font-weight: bolder;
@@ -75,7 +79,11 @@ nav {
 
 #contact {
   min-height: 400px;
-  max-width: 500px; 
+  max-width: 600px;
+
+  button {
+    min-width: 130px;
+  }
 }
 
 #contact a button:hover{
@@ -93,6 +101,7 @@ nav {
 
 .designed-by {
   display: flex;
+  flex-direction: column;
   align-items: center;
   font-size: 12px;
   color: white;

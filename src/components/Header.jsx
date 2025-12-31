@@ -1,7 +1,11 @@
 import React from 'react';
 import { Navbar, Container, Nav, Image } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 function Header() {
+    const { t } = useTranslation();
+    
     const scrollToTop = () => {
         window.scrollTo({top:0, behavior: 'smooth'});
         window.history.replaceState(null, null, window.location.pathname);
@@ -16,10 +20,11 @@ function Header() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#experience">Experience</Nav.Link>
-                        <Nav.Link href="#project">Project</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link href="#about">{t('nav.about')}</Nav.Link>
+                        <Nav.Link href="#experience">{t('nav.experience')}</Nav.Link>
+                        <Nav.Link href="#projects">{t('nav.projects')}</Nav.Link>
+                        <Nav.Link href="#contact">{t('nav.contact')}</Nav.Link>
+                        <LanguageSwitcher />
                     </Nav>
                 </Navbar.Collapse>
             </Container>

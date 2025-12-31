@@ -1,7 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 function Home() {
+    const { t } = useTranslation();
+    
     return (
         <Container id="home" className="d-flex flex-column align-items-center justify-content-center py-5">
             <Row>
@@ -11,11 +14,11 @@ function Home() {
             </Row>
             <Row className='p-2 mt-5 text-center'>
                 <Col xs className="upEffect">
-                    <span className='fs-4'>Hi, my name is</span>
+                    <span className='fs-4'>{t('home.greeting')}</span>
                     <h1 className="mb-0 display-3">Yahya Yasir Koca.</h1>
-                    <h2>Software Developer</h2>
+                    <h2>{t('home.title')}</h2>
                     <p className='fs-5'>
-                        I'm a passionate Full-Stack Developer with a love for crafting elegant code, solving intricate problems, automating tasks, and building engaging <br/> Single Page Applications.
+                        {t('home.description')}
                     </p>
                 </Col>
             </Row>

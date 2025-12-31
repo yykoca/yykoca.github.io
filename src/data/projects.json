@@ -1,20 +1,20 @@
 [
     {
+        "id": "murekkep",
         "name": "Mürekkep",
         "url": "https://yasarkoca.netlify.app",
-        "description": "Mürekkep is a blog site where writers publish personal posts and stay connected with their readers through updates on new content.",
         "image": "./images/projects/murekkep.png"
     },
     {
+        "id": "notkutusu",
         "name": "Not Kutusu",
         "url": "http://notkutusu.com",
-        "description": "Not Kutusu is a web-based application designed for students of Istanbul Technical University (ITU) to upload and access lecture notes, promoting academic collaboration and resource sharing.",
         "image": "./images/projects/notkutusu.png"
     },
     {
+        "id": "gameofthrones",
         "name": "Game of Thrones",
         "url": "https://yykoca.github.io/gameOfThrones/houses",
-        "description": "A web application developed using Angular to fetch and display quotes from the Game of Thrones TV series.",
         "image": "./images/projects/game-of-thrones.png"
     }
 ]

@@ -1,8 +1,12 @@
 import React from 'react'
 import { Navbar, Container, Nav, Image } from "react-bootstrap";
 import { Github, Instagram, Linkedin, TwitterX, Envelope  } from "react-bootstrap-icons";
+import { useTranslation } from 'react-i18next';
 
 function Footer() {
+    const { t } = useTranslation();
+    const currentYear = new Date().getFullYear();
+    
     return (
         <Navbar id="footer" expand="lg" variant="dark" bg="dark" className="p-0 d-flex flex-column justify-content-end">
             <Container >
@@ -14,7 +18,10 @@ function Footer() {
                     <Nav.Link className="px-3" href="mailto:yykoca.08@gmail.com"><Envelope /></Nav.Link>
                 </Nav>
             </Container>
-            <div className="designed-by">Designed & Built with <Image src="./images/heart.svg" height="14"/> by Yahya Yasir Koca.</div>
+            <div className="designed-by">
+                <p>{t('footer.designedBy-I')} <Image src="./images/heart.svg" height="14"/> {t('footer.designedBy-II')}</p>
+                <p>{t('footer.copyright', { year: currentYear })}</p>
+            </div>
         </Navbar>
     )
 }
