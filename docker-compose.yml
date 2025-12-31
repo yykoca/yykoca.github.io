@@ -1,0 +1,14 @@
+services:
+  dev:
+    image: node:18-alpine
+    working_dir: /app
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: sh -c "npm install && npm start"
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
+    environment:
+      - WATCHPACK_POLLING=true
